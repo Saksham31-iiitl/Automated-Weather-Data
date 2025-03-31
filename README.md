@@ -32,9 +32,3 @@ Define the dependencies between the tasks using the >> operator.
  *get_dataFrame should run before schema_creation.
  *schema_creation should run before transform_task.
  *transform_task should run before load_task.
-
-No need to run any file individually. **To execute the data pipeline, you need to start the Airflow scheduler and trigger the DAG either manually or based on the schedule interval you have specified**.
-
-# Please note that you need to have Airflow and its dependencies properly installed and configured for this code to work.
-if any query, feel free to ask on Linkedln. www.linkedin.com/in/nsk7
-
